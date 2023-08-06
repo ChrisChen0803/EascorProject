@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Fontquan-XinYilogoTi';
-  src: url('/Fontquan-XinYiGuanHeiTi_Regular.ttf') format('truetype');
+  src: url('./Fontquan-XinYiGuanHeiTi_Regular.ttf') format('truetype');
 }
 .desktop-1-child {
     position: absolute;

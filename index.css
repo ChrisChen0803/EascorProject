@@ -3,7 +3,7 @@
   src: url('./Fontquan-XinYiGuanHeiTi_Regular.ttf') format('truetype');
 }
 .desktop-1-child {
-    position: absolute;
+    position: relative;
     height: 116.01%;
     width: 154.93%;
     top: 0;
@@ -31,7 +31,7 @@
   }
   .group-child,
   .group-item {
-    position: absolute;
+    position:absolute;
     height: 22.17%;
     width: 12.38%;
     top: 51.66%;
@@ -371,13 +371,12 @@
     left: 87.62%;
   }
   .rectangle-parent {
-    position: absolute;
+    position: relative;
+    top:2.8%;
     height: 25.63%;
     width: 112.22%;
-    top: 4.91%;
-    right: -6.11%;
-    bottom: 69.46%;
-    left: -6.11%;
+    margin: 4.91% -6.11% 69.46% -6.11%;
+    border-radius: var(--br-11xl);
   }
   .rectangle-wrapper {
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
@@ -487,10 +486,8 @@
     /* Group 1000002766 (1) 1 */
 
     position: absolute;
-    width: 189px;
-    height: 57px;
-    left: 50px;
-    top: 24px;
+    top:0%;
+    left: 0.1%;
 
   }
   .nft,
@@ -500,10 +497,9 @@
     box-sizing: border-box;
 
     position: absolute;
-    left: 19.44%;
-    right: 76.67%;
-    top: 39.62%;
-    bottom: 38.68%;
+    top:25%;
+    left: 17.44%;
+  
 
     font-family: 'Mulish';
     font-style: normal;
@@ -527,10 +523,8 @@
     box-sizing: border-box;
 
     position: absolute;
-    left: 25.76%;
+    left: 25%;
     right: 71.74%;
-    top: 39.62%;
-    bottom: 38.68%;
     padding: 0;
     border:0;
     font-family: 'Mulish';
@@ -567,8 +561,8 @@
   }
   .search-icon {
     position: absolute;
-    top: 10px;
-    left: 13px;
+    top: 25%;
+    left: 2.5%;
     width: 18px;
     height: 18px;
     overflow: hidden;
@@ -576,8 +570,8 @@
   }
   #searchbox {
     position: absolute;
-    top: 21.15%;
-    left: 10.57%;
+    top: 20%;
+    left: 10%;
     background-color: transparent;
     width: 345px;
     border: none;
@@ -602,9 +596,9 @@
     line-height: 20px;
   }
   .group-container {
-    position: absolute;
-    top: 34px;
-    left: 521px;
+    position: relative;
+    top: 20%;
+    left: 35%;
     width: 397px;
     height: 38px;
     font-size: var(--font-size-base);
@@ -616,8 +610,8 @@
     /* Rectangle 2971 */
     display: inline-block;
     position: absolute;
-    top: 0;
-    left: 40%;
+    bottom: 30%;
+    left: 80%;
     width: 152px;
     height: 38px;
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
@@ -634,23 +628,13 @@ color: #FFFFFF;
     
     cursor:pointer;
   }
-  .component-1,
-  .group-div {
-    position: absolute;
-    top: 34px;
-    left: 1224px;
-    width: 152px;
-    height: 38px;
-    font-size: var(--font-size-base);
-  }
   .component-1 {
-    height: 3.01%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 96.99%;
-    left: 0;
-    font-size: var(--font-size-lg);
+    position: absolute;
+    left: 3.2%;
+    height: 2%;
+    bottom: 97%;
+    width:100%;
+    font-size: var(--font-size-base);
   }
   .group-child27,
   .rectangle-wrapper1 {

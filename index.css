@@ -33,6 +33,11 @@
         rgba(82, 117, 254, 0.2)
       );
   }
+  .gotodesktop2{
+    position:relative;
+    left:20%;
+    color:white;
+  }
   .group-child,
   .group-item {
     position:absolute;

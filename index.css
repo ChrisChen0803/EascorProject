@@ -2,6 +2,10 @@
   font-family: 'Fontquan-XinYilogoTi';
   src: url('./Fontquan-XinYiGuanHeiTi_Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Mulish';
+  src: url('./Mulish-Regular.ttf') format('truetype');
+}
 .desktop-1-child {
     position: relative;
     height: 116.01%;
@@ -478,6 +482,7 @@
     width: 68.75%;
     top: 10.54%;
     left: 15.63%;
+    text-align: center;
     display: inline-block;
     text-shadow: 0-10px 30px rgba(255, 255, 255, 0.18),
       0 10px 30px rgba(255, 255, 255, 0.18);
@@ -623,8 +628,7 @@
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-
-color: #FFFFFF;
+    color: #FFFFFF;
     
     cursor:pointer;
   }

@@ -462,6 +462,10 @@
       0 10px 30px rgba(255, 255, 255, 0.18);
   }
   .marketplace1 {
+    cursor:pointer;
+    border:none;
+    background:transparent;
+    margin:0;
     top: 37.98%;
     background: linear-gradient(89.34deg, #5275fe, #b06aff);
     -webkit-background-clip: text;
@@ -476,6 +480,10 @@
     font-size: var(--font-size-xl);
   }
   .top {
+    cursor:pointer;
+    border:none;
+    background:transparent;
+    margin:0;
     top: 37.98%;
     left: 15.35%;
     font-family: var(--font-fontquan-xinyilogoti);
@@ -645,161 +653,62 @@
     width:100%;
     font-size: var(--font-size-base);
   }
-  .group-child27,
-  .rectangle-wrapper1 {
+  .desktop-1-inner {
+    display: block;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 59px;
-    height: 31px;
+    top: 40%;
+    left: 64px;
+    height: 1%;
+    width: 100%;
   }
-  .group-child27 {
+  .all {
+    position: relative;
+    border: none;
+    margin:0;
+    background:transparent;
+    color:white;
+    cursor: pointer;
+    top:10%;
+    width: 100%;
+    font-size:1.1rem;
+    font-weight: 800;
+    font-family: 'Mulish';
+    display: inline-block;
+  }
+  .group-child27,
+  .group-child28,
+  .group-child29,
+  .group-child30,
+  .group-child31,
+  .group-child32 {
+    position: absolute;
+    top:0;
+    width: 4%;
+    height: 100%;
     border-radius: var(--br-8xs);
     background-color: var(--color-gray-400);
     border: 2px solid rgba(233, 233, 233, 0.1);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
     box-sizing: border-box;
   }
-  .rectangle-wrapper1 {
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-  }
-  .all {
-    position: absolute;
-    width: 66.67%;
-    top: 19.35%;
-    left: 17.54%;
-    font-weight: 800;
-    display: inline-block;
-  }
-  .desktop-1-inner,
-  .group-parent1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 59px;
-    height: 31px;
-  }
-  .desktop-1-inner {
-    top: 1403px;
-    left: 64px;
-  }
-  .group-child28 {
-    top: 0;
-    left: 0;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-gray-400);
-    border: 2px solid var(--color-gray-300);
-    box-sizing: border-box;
-  }
-  .group-child28,
-  .group-parent2,
-  .rectangle-wrapper2 {
-    position: absolute;
-    width: 65.02px;
-    height: 31px;
-  }
-  .rectangle-wrapper2 {
-    top: 0;
-    left: 0;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-  }
-  .group-parent2 {
-    top: 1403px;
-    left: 143px;
-  }
-  .group-child29,
-  .rectangle-wrapper3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 91px;
-    height: 31px;
+  .group-child28{
+    left: 6%;
   }
   .group-child29 {
-    border-radius: var(--br-8xs);
-    background-color: var(--color-gray-400);
-    border: 2px solid var(--color-gray-300);
-    box-sizing: border-box;
-  }
-  .rectangle-wrapper3 {
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-  }
-  .gaming {
-    position: absolute;
-    width: 72.53%;
-    top: 19.35%;
-    left: 12.09%;
-    font-weight: 800;
-    display: inline-block;
-  }
-  .group-parent3 {
-    position: absolute;
-    top: 1403px;
-    left: 228px;
-    width: 91px;
-    height: 31px;
+    width:5%;
+    left:12%;
   }
   .group-child30 {
-    top: 0;
-    left: 0;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-gray-400);
-    border: 2px solid var(--color-gray-300);
-    box-sizing: border-box;
+    width:6.7%;
+    left:19%;
   }
-  .group-child30,
-  .group-parent4,
-  .rectangle-wrapper4 {
-    position: absolute;
-    width: 132px;
-    height: 31px;
-  }
-  .rectangle-wrapper4 {
-    top: 0;
-    left: 0;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-  }
-  .group-parent4 {
-    top: 1403px;
-    left: 339px;
-  }
-  .photography {
-    position: absolute;
-    width: 78.03%;
-    top: 19.35%;
-    left: 10.61%;
-    font-weight: 800;
-    display: inline-block;
-  }
-  .group-parent5 {
-    position: absolute;
-    top: 1403px;
-    left: 587px;
-    width: 132px;
-    height: 31px;
+  .group-child31 {
+    width:5%;
+    left:27.5%;
   }
   .group-child32 {
-    top: 0;
-    left: 0;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-gray-400);
-    border: 2px solid var(--color-gray-300);
-    box-sizing: border-box;
-  }
-  .group-child32,
-  .group-parent6,
-  .rectangle-wrapper6 {
-    position: absolute;
-    width: 76px;
-    height: 31px;
-  }
-  .rectangle-wrapper6 {
-    top: 0;
-    left: 0;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-  }
-  .group-parent6 {
-    top: 1403px;
-    left: 491px;
+    width:8%;
+    left:34%;
   }
   .desktop-1-child1 {
     position: absolute;

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
+    "build": "npm install",
     "server": "node ./bin/www"
   },
   "dependencies": {

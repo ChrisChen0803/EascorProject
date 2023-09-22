@@ -278,7 +278,13 @@
   position: absolute;
   top: 32.86%;
   left: 1.32%;
-  font-weight: 300;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subtitle-subtitle-1-medium-size);
+  color: var(--color-black);
+  font-family: 'Mulish';
+  border: 0;
+  background:transparent;
 }
 .customer-support,
 .eascordao,
@@ -295,27 +301,31 @@
 .about-us-parent {
   position: absolute;
   height: 83.2%;
-  width: 11.56%;
+  width: 14.56%;
   top: 0;
   right: 19.62%;
   bottom: 16.8%;
   left: 68.82%;
 }
-.terms-of-use {
-  cursor: pointer;
-  position: absolute;
-  top: 32.86%;
-  left: 0;
-  font-weight: 300;
-}
-.privacy-policy,
+.terms-of-use,.privacy-policy,
 .security,
 .trademark-policy {
   cursor: pointer;
   position: absolute;
-  top: 51.64%;
+  top: 32.86%;
   left: 0;
-  font-weight: 300;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subtitle-subtitle-1-medium-size);
+  color: var(--color-black);
+  font-family: 'Mulish';
+  border: 0;
+  background:transparent;
+}
+.privacy-policy,
+.security,
+.trademark-policy {
+  top: 51.64%;
 }
 .security,
 .trademark-policy {
@@ -327,7 +337,7 @@
 .terms-of-use-parent {
   position: absolute;
   height: 83.2%;
-  width: 10.72%;
+  width: 13.72%;
   top: 0;
   right: 0;
   bottom: 16.8%;
@@ -430,6 +440,8 @@ input[type="number"] {
     -moz-appearance: textfield; /* Firefox */
 }
 .numberinput{
+    left: 0;
+    width: 100%;
     background:transparent;
     border: none;
     outline: none;
@@ -439,7 +451,11 @@ input[type="number"] {
   height:2rem;
 }
 .parent3 {
-  width: 20.25rem;
+  position: relative;
+  left:0%;
+  top:0%;
+  height: 99%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -951,6 +967,7 @@ input[type="search"] {
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
     background: linear-gradient(262.75deg, #B06AFF 0%, #5275FE 100%);
     border-radius: 5px;
+    border:0;
 
     font-family: 'Mulish';
     font-style: normal;

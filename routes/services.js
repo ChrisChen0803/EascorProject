@@ -7,23 +7,23 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/swap', function(req, res, next) {
-  res.render('swap');
+  res.render('desktop4/services/swap');
 });
 
 router.get('/nft', function(req, res, next) {
-  res.render('nft');
+  res.render('desktop4/services/nft');
 });
 
 router.get('/pool', function(req, res, next) {
-  res.render('pool');
+  res.render('desktop4/services/pool');
 });
 
 router.get('/farms', function(req, res, next) {
-  res.render('farms');
+  res.render('desktop4/services/farms');
 });
 
 router.get('/auditbyib', function(req, res, next) {
-  res.render('auditbyib');
+  res.render('desktop4/services/auditbyib');
 });
 
 
